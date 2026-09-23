@@ -1,0 +1,25 @@
+PESOS DEL MODELO
+================
+Copiar aquí el checkpoint disponible:
+
+  C:\Users\PersonalJR\Documents\Python Scripts\TrDPNet_entrega_v3\weights\trdpnet_replica.pt
+
+El notebook lo detecta solo. Como esos pesos se obtuvieron con otra distribución de
+formas, en la primera ejecución con el conjunto ShapeNet real los reutiliza como punto
+de partida y los ajusta durante unos cientos de pasos (unos minutos en la RTX 5070 Ti).
+El resultado se guarda como:
+
+  weights\trdpnet_shapenet.pt
+
+A partir de ahí, todas las ejecuciones son de solo inferencia.
+
+Si no existe ningún checkpoint, el notebook entrena uno desde cero con el mismo
+procedimiento, sin intervención manual.
+
+CONJUNTO DE DATOS
+=================
+Ruta buscada por defecto:
+
+  C:\Users\PersonalJR\Documents\Python Scripts\ISR_ONET_HD_EG3D\data\ShapeNet
+
+Para usar otra, añadirla al principio de la lista RUTAS_SHAPENET (celda 1 del notebook).

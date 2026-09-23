@@ -1,0 +1,14 @@
+métrica,valor propio,artículo,qué mide
+F-score@0.05 · con imagen,0.480,0.389,calidad de la reconstrucción condicionada
+F-score@0.05 · sin imagen,0.322,—,el mismo modelo con el token nulo
+F-score@0.05 · nube aleatoria,0.382,—,suelo de referencia
+Ganancia por usar la imagen,+48.8 %,—,efecto medible de la atención cruzada
+Distancia de Chamfer · con imagen,0.0222,—,error geométrico medio
+Distancia de Chamfer · sin imagen,0.0341,—,error sin condición
+Escala de guía óptima ω,2.0,2.5 – 3.0,punto dulce de la guía sin clasificador
+"Error de Q, K y V frente a PyTorch",3.0e-07,—,verificación del mecanismo de atención
+Entropía de la atención cruzada,98 %,—,cuán repartida está la atención
+Peso del token temporal,3.6×,—,veces por encima del reparto uniforme
+Parámetros del modelo,1 590 915,≈ 100 M,tamaño de la réplica
+Tiempo de inferencia por objeto,5.4 s,—,"en cuda, 200 pasos × 2 evaluaciones"
+Origen de los datos,ShapeNet-R2N2 real,ShapeNet-R2N2,conjunto empleado

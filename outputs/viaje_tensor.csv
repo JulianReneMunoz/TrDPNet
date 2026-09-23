@@ -1,0 +1,11 @@
+etapa,forma del tensor,elementos
+nube ruidosa X_t (entrada),"(1, 1024, 3)",3072
+imagen (entrada),"(1, 1, 48, 48)",2304
+tokens de la nube z,"(1, 64, 128)",8192
+tokens de la imagen,"(1, 36, 128)",4608
+token del paso t,"(1, 128)",128
+salida bloque 1,"(1, 64, 128)",8192
+salida bloque 2,"(1, 64, 128)",8192
+salida bloque 3,"(1, 64, 128)",8192
+salida bloque 4,"(1, 64, 128)",8192
+ruido predicho ε̂,"(1, 1024, 3)",3072

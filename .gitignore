@@ -1,0 +1,21 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# archivos temporales de la interfaz
+outputs/_subida*
+outputs/_ref*
+# LaTeX: auxiliares (los PDF finales sí se suben)
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+# sistema
+.DS_Store
+Thumbs.db

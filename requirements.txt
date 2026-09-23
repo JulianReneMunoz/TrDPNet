@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+torch
+pillow
+ipywidgets
+plotly
+streamlit
+jupyterlab
